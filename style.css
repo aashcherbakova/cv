@@ -64,7 +64,6 @@ header h1 {
   margin: 0;
   letter-spacing: 1px;
   opacity: 1;
-  text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
   position: relative;
   top: 370px;
   font-weight: 700;
@@ -105,6 +104,10 @@ footer hr {
 
 .center {
   text-align: center;
+}
+
+.headertext {
+  color:   #4d4d4d;
 }
 
 @media screen and (min-width: 50em) {
@@ -359,6 +362,10 @@ footer hr {
     list-style-type: none;
 }
 
+.minheight {
+  min-height: 310px;
+}
+
 @media screen and (min-width: 40em) {
   .spotlight {
     padding: 6em;
@@ -370,4 +377,3 @@ footer hr {
   }
   
 }
-
