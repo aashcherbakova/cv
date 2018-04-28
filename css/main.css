@@ -24,7 +24,7 @@
  *      ## additional typo styles
  *      ## skillbars
  *  # common and reusable theme styles 
- *      ## section intro
+ *      ## section intro 
  *      ## blog-list
  *  # header styles
  *      ## header logo
@@ -1006,10 +1006,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * markup:
  *
  * <aside class="pull-quote">
- *		<blockquote>
- *			<p></p>
- *		</blockquote>
- *	</aside>
+ *      <blockquote>
+ *          <p></p>
+ *      </blockquote>
+ *  </aside>
  *
  * --------------------------------------------------------------------- */
 
@@ -1053,8 +1053,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * markup:
  *
  * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
+ *      <li><a href="#">[value]<em>[name]</em></a></li>
+ *  </ul>
  *
  * Extend this object into your markup.
  *
@@ -1136,30 +1136,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 100%;
 }
 
-.skill-bars li .progress span {
-    position: absolute;
-    right: 0;
-    top: -3.6rem;
-    display: block;
-    font-family: "montserrat-regular", sans-serif;
-    color: #FFFFFF;
-    font-size: 1.1rem;
-    line-height: 1;
-    background: #000000;
-    padding: .6rem .6rem;
-    border-radius: 3px;
-}
 
-.skill-bars li .progress span::after {
-    position: absolute;
-    left: 50%;
-    bottom: -5px;
-    margin-left: -5px;
-    border-right: 5px solid transparent;
-    border-left: 5px solid transparent;
-    border-top: 5px solid #000000;
-    content: "";
-}
+ 
 
 .skill-bars li .percent5 {
     width: 5%;
@@ -1829,7 +1807,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons .btn:hover, 
 .home-content__buttons .btn:focus {
-    background: #FFFFFF !important;
+      background: #FFFFFF !important;
     color: #000000;
 }
 
