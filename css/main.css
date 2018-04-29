@@ -57,7 +57,7 @@
  * # webfonts and iconfonts - (_document-setup.scss)
  *
  * ------------------------------------------------------------------- */
-
+@import url("iconic/css/iconmonstr-iconic-font.min.css");
 @import url("fonts.css");
 
 
